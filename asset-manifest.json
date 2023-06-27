@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-Anton-Kobyshev/static/css/main.337836e5.css",
-    "main.js": "/Portfolio-Anton-Kobyshev/static/js/main.cde200d9.js",
+    "main.js": "/Portfolio-Anton-Kobyshev/static/js/main.c80221c3.js",
     "static/media/header-bg.png": "/Portfolio-Anton-Kobyshev/static/media/header-bg.a2b365966b8c3309c736.png",
     "static/media/04.jpg": "/Portfolio-Anton-Kobyshev/static/media/04.ab3c84d5fb39e37ef2e6.jpg",
     "static/media/01.jpg": "/Portfolio-Anton-Kobyshev/static/media/01.471ac14191850a65745f.jpg",
@@ -15,10 +15,10 @@
     "static/media/linkedIn.svg": "/Portfolio-Anton-Kobyshev/static/media/linkedIn.c05a2ae5b158581b0f27510e1d79e379.svg",
     "static/media/telegram.svg": "/Portfolio-Anton-Kobyshev/static/media/telegram.6559dd8abd76187066e3095143e1364c.svg",
     "main.337836e5.css.map": "/Portfolio-Anton-Kobyshev/static/css/main.337836e5.css.map",
-    "main.cde200d9.js.map": "/Portfolio-Anton-Kobyshev/static/js/main.cde200d9.js.map"
+    "main.c80221c3.js.map": "/Portfolio-Anton-Kobyshev/static/js/main.c80221c3.js.map"
   },
   "entrypoints": [
     "static/css/main.337836e5.css",
-    "static/js/main.cde200d9.js"
+    "static/js/main.c80221c3.js"
   ]
 }
