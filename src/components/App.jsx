@@ -3,6 +3,7 @@ import Navbar from "./navbar/Navbar";
 import Footer from "./footer/Footer";
 import Home from "pages/Home";
 import Projects from "pages/Projects";
+import Contacts from "pages/Contacts";
 
 export const App = () => {
   return (
@@ -13,6 +14,8 @@ export const App = () => {
       <Home />
 
       <Projects />
+
+      <Contacts />
 
       <Footer />
 
