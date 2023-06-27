@@ -10,7 +10,7 @@ export const App = () => {
           <nav className="nav">
         <div className="container">
             <div className="nav-row">
-                <a href="./index.html" className="logo"><strong>Frontend developer</strong> portfolio</a>
+                <a href="./index.html" className="logo"><strong>Fullstack</strong> developer</a>
 
                 <button className="dark-mode-btn">
                     <img src={ sun } alt="Light mode" className="dark-mode-btn__icon" />
