@@ -1,14 +1,18 @@
 {
   "files": {
     "main.css": "/Portfolio-Anton-Kobyshev/static/css/main.eafc3901.css",
-    "main.js": "/Portfolio-Anton-Kobyshev/static/js/main.2cd726e7.js",
+    "main.js": "/Portfolio-Anton-Kobyshev/static/js/main.ac207f56.js",
     "static/media/header-bg.png": "/Portfolio-Anton-Kobyshev/static/media/header-bg.a2b365966b8c3309c736.png",
+    "static/media/sun.svg": "/Portfolio-Anton-Kobyshev/static/media/sun.4d47962acd6c83e7e7aca592ec39545f.svg",
+    "static/media/moon.svg": "/Portfolio-Anton-Kobyshev/static/media/moon.829f022e764b1d37016e364c5447dfdb.svg",
+    "static/media/gitHub.svg": "/Portfolio-Anton-Kobyshev/static/media/gitHub.db1e3cfa3aa61658d837d82e113dc1fe.svg",
     "index.html": "/Portfolio-Anton-Kobyshev/index.html",
+    "static/media/linkedIn.svg": "/Portfolio-Anton-Kobyshev/static/media/linkedIn.c05a2ae5b158581b0f27510e1d79e379.svg",
     "main.eafc3901.css.map": "/Portfolio-Anton-Kobyshev/static/css/main.eafc3901.css.map",
-    "main.2cd726e7.js.map": "/Portfolio-Anton-Kobyshev/static/js/main.2cd726e7.js.map"
+    "main.ac207f56.js.map": "/Portfolio-Anton-Kobyshev/static/js/main.ac207f56.js.map"
   },
   "entrypoints": [
     "static/css/main.eafc3901.css",
-    "static/js/main.2cd726e7.js"
+    "static/js/main.ac207f56.js"
   ]
 }
