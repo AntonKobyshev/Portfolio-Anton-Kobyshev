@@ -11,7 +11,7 @@ const Header = () => {
           <br />I am a fullstack developer
         </h1>
         <div className="header__text">
-          <p>with passion for learning and creating.</p>
+          <p>with a passion to create.</p>
         </div>
         <a href="#!" className="btn">
           Download CV
