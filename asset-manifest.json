@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio-Anton-Kobyshev/static/css/main.7acaea2f.css",
-    "main.js": "/Portfolio-Anton-Kobyshev/static/js/main.07d3183d.js",
+    "main.css": "/Portfolio-Anton-Kobyshev/static/css/main.eafc3901.css",
+    "main.js": "/Portfolio-Anton-Kobyshev/static/js/main.2cd726e7.js",
+    "static/media/header-bg.png": "/Portfolio-Anton-Kobyshev/static/media/header-bg.a2b365966b8c3309c736.png",
     "index.html": "/Portfolio-Anton-Kobyshev/index.html",
-    "main.7acaea2f.css.map": "/Portfolio-Anton-Kobyshev/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/Portfolio-Anton-Kobyshev/static/js/main.07d3183d.js.map"
+    "main.eafc3901.css.map": "/Portfolio-Anton-Kobyshev/static/css/main.eafc3901.css.map",
+    "main.2cd726e7.js.map": "/Portfolio-Anton-Kobyshev/static/js/main.2cd726e7.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.eafc3901.css",
+    "static/js/main.2cd726e7.js"
   ]
 }
