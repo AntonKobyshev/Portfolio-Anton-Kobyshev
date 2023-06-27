@@ -1,6 +1,8 @@
 import "../styles/main.css"
 import sun from "../img/icons/sun.svg"
 import moon from "../img/icons/moon.svg"
+import linkedin from "../img/icons/linkedIn.svg"
+import github from "../img/icons/gitHub.svg"
 
 export const App = () => {
   return (
@@ -58,14 +60,11 @@ export const App = () => {
         <div className="container">
             <div className="footer__wrapper">
                 <ul className="social">
-                    <li className="social__item"><a href="#!"><img src="./img/icons/vk.svg" alt="Link" /></a></li>
-                    <li className="social__item"><a href="#!"><img src="./img/icons/instagram.svg" alt="Link" /></a></li>
-                    <li className="social__item"><a href="#!"><img src="./img/icons/twitter.svg" alt="Link" /></a></li>
-                    <li className="social__item"><a href="#!"><img src="./img/icons/gitHub.svg" alt="Link" /></a></li>
-                    <li className="social__item"><a href="#!"><img src="./img/icons/linkedIn.svg" alt="Link" /></a></li>
+                    <li className="social__item"><a href="#!"><img src={linkedin} alt="Link" /></a></li>
+              <li className="social__item"><a href="#!"><img src={github} alt="Link" /></a></li>
                 </ul>
                 <div className="copyright">
-                    <p>© 2022 frontend-dev.com</p>
+                    <p>© 2023 all rights reserved</p>
                 </div>
             </div>
         </div>
