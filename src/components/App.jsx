@@ -1,5 +1,5 @@
 import '../styles/main.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Navbar from './navbar/Navbar';
 import Footer from './footer/Footer';
 import Project from 'pages/Project';
@@ -11,7 +11,7 @@ import ScrollToTop from 'utils/scrollToTop';
 function App() {
   return (
     <div className="App">
-      <Router>
+  
         <ScrollToTop />
         <Navbar />
         <Routes>
@@ -21,7 +21,7 @@ function App() {
           <Route path="/project/:id" element={<Project />} />
         </Routes>
         <Footer />
-      </Router>
+  
     </div>
   );
 }
