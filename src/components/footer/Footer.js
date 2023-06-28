@@ -10,17 +10,17 @@ const Footer = () => {
         <div className="footer__wrapper">
           <ul className="social">
             <li className="social__item">
-              <a href="#!">
+              <a href="https://t.me/Dweep23" target='_blank' rel='noreferrer'>
                 <img src={telegram} alt="Link" />
               </a>
             </li>
             <li className="social__item">
-              <a href="#!">
+              <a href="https://www.linkedin.com/in/antonkobyshev/" target='_blank' rel='noreferrer'>
                 <img src={linkedin} alt="Link" />
               </a>
             </li>
             <li className="social__item">
-              <a href="#!">
+              <a href="https://github.com/AntonKobyshev" target='_blank' rel='noreferrer'>
                 <img src={github} alt="Link" />
               </a>
             </li>
