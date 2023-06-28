@@ -1,11 +1,10 @@
-import './style.css';
 import { NavLink } from 'react-router-dom';
 import BtnDarkMode from 'components/btnDarkMode/BtnDarkMode';
+import './style.css';
 
 const Navbar = () => {
-
-  const activeLink = "nav-list__link nav-list__link--active"
-  const nonActiveLink = "nav-list__link"
+  const activeLink = 'nav-list__link nav-list__link--active';
+  const nonActiveLink = 'nav-list__link';
 
   return (
     <nav className="nav">
@@ -15,21 +14,36 @@ const Navbar = () => {
             <strong>Fullstack</strong> developer
           </NavLink>
 
-< BtnDarkMode />
+          <BtnDarkMode />
 
           <ul className="nav-list">
             <li className="nav-list__item">
-              <NavLink to="/" className={({isActive}) => isActive ? activeLink : nonActiveLink}>
+              <NavLink
+                to="/"
+                className={({ isActive }) =>
+                  isActive ? activeLink : nonActiveLink
+                }
+              >
                 Home
               </NavLink>
             </li>
             <li className="nav-list__item">
-              <NavLink to="/projects" className={({isActive}) => isActive ? activeLink : nonActiveLink}>
+              <NavLink
+                to="/projects"
+                className={({ isActive }) =>
+                  isActive ? activeLink : nonActiveLink
+                }
+              >
                 Projects
               </NavLink>
             </li>
             <li className="nav-list__item">
-              <NavLink to="/contacts" className={({isActive}) => isActive ? activeLink : nonActiveLink}>
+              <NavLink
+                to="/contacts"
+                className={({ isActive }) =>
+                  isActive ? activeLink : nonActiveLink
+                }
+              >
                 Contacts
               </NavLink>
             </li>

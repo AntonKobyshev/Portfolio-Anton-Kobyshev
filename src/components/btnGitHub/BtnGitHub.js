@@ -1,5 +1,4 @@
-import './style.css';
-import gitHubIcon from "img/icons/gitHub-black.svg"
+import gitHubIcon from "./gitHub-black.svg"
 
 const BtnGitHub = ({ link }) => {
     return ( 

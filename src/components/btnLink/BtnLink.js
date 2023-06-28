@@ -1,4 +1,3 @@
-import './style.css';
 import { AiOutlineLink } from "react-icons/ai";
 
 const BtnGitHub = ({ link }) => {

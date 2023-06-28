@@ -1,5 +1,6 @@
-import sun from 'img/icons/sun.svg';
-import moon from 'img/icons/moon.svg';
+import './style.css';
+import sun from './sun.svg';
+import moon from './moon.svg';
 
 const BtnDarkMode = () => {
     return (           <button className="dark-mode-btn">

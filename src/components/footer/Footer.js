@@ -1,7 +1,7 @@
 import './style.css';
-import linkedin from 'img/icons/linkedIn.svg';
-import github from 'img/icons/gitHub.svg';
-import telegram from 'img/icons/telegram.svg';
+import linkedin from './linkedIn.svg';
+import github from './gitHub.svg';
+import telegram from './telegram.svg';
 
 const Footer = () => {
   return (
