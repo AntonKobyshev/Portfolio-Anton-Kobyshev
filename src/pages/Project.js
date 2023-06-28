@@ -6,9 +6,6 @@ import { projects } from 'helpers/projectsList';
 const Project = () => {
   const { id } = useParams();
   const project = projects.find(project => project.id === parseInt(id));
-
-  console.log(project);
-
   return (
     <main className="section">
       <div className="container">
@@ -30,9 +27,12 @@ const Project = () => {
               </span>
             </p>
           </div>
-          <BtnLink link={project.link} />
 
-          <BtnGitHub link={project.gitHubLink} />
+          <div className="project-details__button-wrapper">
+            <BtnLink link={project.link} />
+
+            <BtnGitHub link={project.gitHubLink} />
+          </div>
         </div>
       </div>
     </main>

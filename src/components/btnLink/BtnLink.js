@@ -1,10 +1,10 @@
 import './style.css';
-// import gitHubIcon from "img/icons/gitHub-black.svg"
+import { AiOutlineLink } from "react-icons/ai";
 
 const BtnGitHub = ({ link }) => {
     return ( 
            <a href={link} target="_blank" rel='noreferrer' className="btn-outline" >
-                {/* <img src={gitHubIcon} alt="" /> */}
+                <AiOutlineLink />
                     Link
                 </a>
      );
