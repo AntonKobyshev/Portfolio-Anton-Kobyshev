@@ -11,7 +11,7 @@ import ScrollToTop from 'utils/scrollToTop';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router >
         <ScrollToTop />
         <Navbar />
         <Routes>
@@ -19,6 +19,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/project/:id" element={<Project />} />
+          <Route path="*" element={<Home />} />
         </Routes>
         <Footer />
       </Router>
