@@ -55,6 +55,7 @@ body {
 	/* Light mode */
 	background-color: var(--page-bg);
 	color: var(--text-color);
+	
 }
 
 #root {
@@ -70,6 +71,18 @@ body {
 
 
 /* General */
+
+::-webkit-scrollbar {
+	width: 0em;
+}
+
+::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: transparent;
+}
 
 .container {
 	margin: 0 auto;
@@ -255,6 +268,10 @@ body {
 
 .content-list__item p + p {
 	margin-top: 0.5em;
+}
+
+.content-list__image {
+	width: 300px;
 }
 
 
