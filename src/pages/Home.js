@@ -11,11 +11,11 @@ const Home = () => {
           <ul className="content-list">
             <li className="content-list__item">
               <h2 className="title-2">Frontend</h2>
-              <p>JavaScript, TypeScript, ReactJS, Redux, HTML, CSS, NPM, BootStrap, MaterialUI, Yarn, StyledComponents</p>
+              <p>JavaScript, TypeScript, ReactJS, Redux, Vue, HTML5, CSS3, SASS, RestAPI, NPM, Yarn, Webpack, Parcel, BootStrap, MaterialUI, StyledComponents</p>
             </li>
             <li className="content-list__item">
               <h2 className="title-2">Backend</h2>
-              <p>NodeJS, MongoDB</p>
+              <p>NodeJS, Express, MongoDB, Mongoose</p>
             </li>
           </ul>
 
