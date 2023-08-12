@@ -8,6 +8,8 @@ import project04 from 'img/projects/04.jpg';
 import project04Big from 'img/projects/04-big.jpg';
 import project05 from 'img/projects/05.jpg';
 import project05Big from 'img/projects/05-big.jpg';
+import project06 from 'img/projects/06.jpg';
+import project06Big from 'img/projects/06-big.jpg';
 
 const projects = [
   {
@@ -54,7 +56,18 @@ const projects = [
     description:
       'Individual project. Role: developer. A simple image search app based on React hooks technology.',
   },
-  {
+    {
+    id: 6,
+    title: 'ToDo App',
+    skills: '[Vue, Vite, JavaScript, SASS]',
+    img: project06,
+    imgBig: project06Big,
+    link: 'https://todo-list-vue-orcin.vercel.app',
+    gitHubLink: 'https://github.com/AntonKobyshev/todo-list-vue',
+    description:
+      'Individual project. Role: developer. Simple ToDo App.',
+  },
+     {
     id: 5,
     title: 'Web Studio',
     skills: '[HTML, SASS]',
