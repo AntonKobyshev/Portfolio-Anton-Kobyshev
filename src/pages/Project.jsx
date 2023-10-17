@@ -1,6 +1,7 @@
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import BtnGitHub from 'components/btnGitHub/BtnGitHub';
 import BtnLink from 'components/btnLink/BtnLink';
+import BtnBack from 'components/BtnBack/BtnBack';
 import { projects } from 'helpers/projectsList';
 
 const Project = () => {
@@ -30,8 +31,10 @@ const Project = () => {
 
           <div className="project-details__button-wrapper">
             <BtnLink link={project.link} />
-
             <BtnGitHub link={project.gitHubLink} />
+            <Link to="/projects">
+              <BtnBack />
+            </Link>
           </div>
         </div>
       </div>
