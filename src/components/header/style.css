@@ -47,3 +47,9 @@
 .header__text p+p {
     margin-top: 0.5em;
 }
+
+.links {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
