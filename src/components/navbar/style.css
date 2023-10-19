@@ -20,10 +20,15 @@
     color: var(--nav-text);
     font-size: 24px;
     font-family: 'Poppins', sans-serif;
+    transition: all 0.35s ease-in-out;
 }
 
 .logo strong {
     font-weight: 700;
+}
+
+.logo:hover {
+    color: var(--accent);
 }
 
 .nav-list {
@@ -39,26 +44,37 @@
 
 .nav-list__link {
     color: var(--nav-text);
-    transition: opacity 0.2s ease-in;
+    transition: all 0.35s ease-in-out;
 }
 
 .nav-list__link:hover {
-    opacity: 0.8;
+    color: var(--accent);
 }
 
 .nav-list__link--active {
     position: relative;
+    color: var(--accent);
 }
 
 .nav-list__link--active::before {
     content: '';
-
     position: absolute;
-    left: 0;
+    left: 0%;
     top: 100%;
-
+    transform: translate( 0%, -50%);
     display: block;
     height: 2px;
-    width: 100%;
+    width: 0;
     background-color: var(--accent);
+    animation: appearFromCenter 0.35s ease-in forwards;
+}
+
+@keyframes appearFromCenter {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
 }

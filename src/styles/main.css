@@ -132,9 +132,9 @@ body {
   transition: opacity 0.2s ease-in;
 }
 
-.btn:hover {
+/* .btn:hover {
   opacity: 0.8;
-}
+} */
 
 .btn:active {
   position: relative;
