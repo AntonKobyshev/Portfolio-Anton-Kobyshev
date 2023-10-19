@@ -6,8 +6,8 @@
   --blackpure: #000;
   --black: #171718;
   --black-border: #26292d;
-  --white: #fff;
-  --purple: #5c62ec;
+  --white: #ffffff;
+  --blue: #0084ff;
 
   /* Nav */
   --nav-bg: var(--black);
@@ -24,10 +24,11 @@
 
   /* Light mode */
   --page-bg: var(--white);
+  --header-bg: var(--white);
   --text-color: var(--black);
-  --accent: var(--purple);
+  --accent: var(--blue);
   --title-1: var(--accent);
-
+  --header-text: var(--black);
   --project-card-bg: var(--white);
   --project-card-text: var(--black);
   --box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.25);
@@ -36,7 +37,9 @@
 .dark {
   /* Dark mode */
   --page-bg: #252526;
+  --header-bg: var(--black);
   --text-color: var(--white);
+  --header-text: var(--white);
 
   --title-1: var(--white);
 

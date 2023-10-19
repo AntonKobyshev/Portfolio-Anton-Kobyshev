@@ -4,13 +4,12 @@
 
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 
-    background-color: var(--header-bg);
     background-image: url('./../../img/header-bg.png');
     background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center center;
+    background-size: auto 100%;
+    background-position: 78% center;
 
     color: var(--header-text);
     text-align: center;
@@ -34,8 +33,9 @@
 }
 
 .header__title em {
+    font-size: 72px;
     font-style: normal;
-    color: var(--accent);
+    
 }
 
 .header__text {
